@@ -44,3 +44,4 @@ while True:
 
         case _:
             print(f"----------ERROR, INGRESE ALGUN VALOR CORRECTO----------")
+            print("prueba de ramas")
