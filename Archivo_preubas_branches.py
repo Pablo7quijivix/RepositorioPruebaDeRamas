@@ -19,3 +19,19 @@ while True:
             d = int(input(f"ingrese segundo numero: "))
             resta = c-d
             print(f"EL RESULTADO DE LA RESTA: {resta}")
+
+        case "3":
+            e = int(input(f"ingrese primer numero: "))
+            f = int(input(f"ingrese segundo numero: "))
+            multi = e * f
+            print(f"EL RESULTADO DE LA MULTIPLICACION ES IGUAL A: {multi}")
+
+        case "4":
+            g = int(input(f"ingresar primer numero: "))
+            h = int(input(f"ingresar segundo numero: "))
+            division = g / h
+            print(f"El resultado de la division es igual a: {division}")
+
+        case "5":
+            print(f"SALIENDO DEL SISTEMA..........")
+            break
