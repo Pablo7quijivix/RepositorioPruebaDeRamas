@@ -13,3 +13,9 @@ while True:
             b= int( input("ingrese segundo numero: "))
             suma = a+b
             print(f"RESULTADO DE LA SUMA: {suma}")
+
+        case "2":
+            c = int(input(f"ingrese primer numero: "))
+            d = int(input(f"ingrese segundo numero: "))
+            resta = c-d
+            print(f"EL RESULTADO DE LA RESTA: {resta}")
