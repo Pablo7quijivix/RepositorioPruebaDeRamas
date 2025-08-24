@@ -6,6 +6,7 @@ while True:
     print("3. multiplicacion")
     print("4. division")
     print("5. potenciacion")
+    print(f"6. saliar del menu")
     op_elegida = input(f"ELIJA UNA ACCION A REALIZAR (1-5): ")
     match op_elegida:
         case "1":
@@ -33,5 +34,13 @@ while True:
             print(f"El resultado de la division es igual a: {division}")
 
         case "5":
-            print(f"SALIENDO DEL SISTEMA..........")
+            vq1 =int(input(f"ingrese algun numero: "))
+            potencia = vq1**2
+            print(f"RESULTADO DE LAS POTENCIA: {potencia}")
+
+        case "6":
+            print(f"SALIENDO DEL SISTEMA...............")
             break
+
+        case _:
+            print(f"----------ERROR, INGRESE ALGUN VALOR CORRECTO----------")
